@@ -8,5 +8,4 @@
     "strict": true
   },
   "include": ["vite.config.ts"]
-}</content>
-<parameter name="filePath">tsconfig.node.json
+}

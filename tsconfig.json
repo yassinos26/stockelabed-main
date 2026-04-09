@@ -22,5 +22,4 @@
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
-}</content>
-<parameter name="filePath">tsconfig.json
+}
