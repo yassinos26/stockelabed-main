@@ -14,20 +14,6 @@ export function Dashboard({ products, movements, onNavigate }: DashboardProps) {
 
   return (
     <div className="max-w-2xl mx-auto space-y-4">
-      {/* Mobile Guide Banner */}
-      <button
-        onClick={() => onNavigate('guide')}
-        className="w-full bg-gradient-to-r from-[#1a8754] to-[#15693f] rounded-lg p-4 text-left hover:opacity-90 transition-opacity"
-      >
-        <div className="flex items-center gap-3">
-          <Smartphone className="w-8 h-8 text-white" />
-          <div>
-            <p className="text-white">📱 Installer sur mobile</p>
-            <p className="text-sm text-green-200">Cliquez ici pour voir comment</p>
-          </div>
-        </div>
-      </button>
-
       {/* Stats Grid */}
       <div className="grid grid-cols-2 gap-4">
         <button
